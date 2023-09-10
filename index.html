@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>14:34</span>
+      </div>
+      <div class="status-bar__column">
+        <span>78%</span>
+        <i class="fa-solid fa-battery-three-quarters"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="login-header">
+      <h1 class="login-header__title">Welcome to KakaoTalk</h1>
+      <p class="login-header__text">
+        If you have a Kakao Account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form action="friends.html" class="login">
+      <input
+        type="text"
+        placeholder="Email or phone number"
+        class="login_email"
+      />
+      <input type="password" placeholder="Password" class="login_password" />
+      <input type="submit" value="Log In" class="login_submit" />
+      <a href="#">Find Kakao Account or Password</a>
+    </form>
+
+    <div id="no-mobile">
+      <span>Screen is Too Big!!!!!</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/badfb008c9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

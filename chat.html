@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>14:34</span>
+      </div>
+      <div class="status-bar__column">
+        <span>78%</span>
+        <i class="fa-solid fa-battery-three-quarters"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <div class="screen-header__icon chat_header">
+        <a href="chats.html">
+          <i class="fa-solid fa-chevron-left"></i>
+        </a>
+      </div>
+      <h1 class="screen-header__title chat_header">T1 Oner</h1>
+      <div class="screen-header__icon chat_header chat_header_last">
+        <span>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </span>
+        <span>
+          <i class="fa-solid fa-bars"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="main_chat">
+      <div class="chat_row_date">
+        <span class="chat_date">Sunday July 30, 2023</span>
+      </div>
+      <div class="chat_row_from">
+        <div class="chat_column_img">
+          <img
+            src="https://cdn.pixabay.com/photo/2018/05/30/00/24/thunderstorm-3440450_1280.jpg"
+            alt=""
+            class="main_chat_img"
+          />
+        </div>
+        <div class="chat_column_text">
+          <span class="chat_name">T1 Oner</span>
+          <div class="chat_from">Hi!</div>
+        </div>
+        <span class="from_time_stamp"> 21:27 </span>
+      </div>
+
+      <div class="chat_row_to">
+        <span class="to_time_stamp">21:31</span>
+        <div class="to_chat_content">Hi! nice to meet you!</div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink fa-lg smile"></i>
+        <button class="arrow">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>Screen is Too Big!!!!!</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/badfb008c9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

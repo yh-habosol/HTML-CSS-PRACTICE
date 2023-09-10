@@ -1,0 +1,33 @@
+
+.settings{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 70px;
+}
+
+
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(121, 121, 121, 0.3);
+
+}
+
+.list_column i{
+    font-size: 25px;
+    color: rgb(105, 108, 112);
+}
+
+.list_text{
+    font-size: 20px;
+    color: rgb(105, 108, 112);
+    margin-left: 20px;
+}
+
+.right_text{
+    color: rgb(161, 166, 171);
+}

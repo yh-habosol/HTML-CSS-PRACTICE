@@ -1,0 +1,38 @@
+
+.screen-header{
+    margin: 30px 0px;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.screen-header__title{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.screen-header__icon span{
+    margin-left: 25px;
+}
+
+.screen-header__icon{
+    font-size: 20px;
+}
+.back_button{
+    font-size: 30px;
+}
+
+.screen-header h1{
+    text-align: center;
+}
+
+.chat_header{
+    width: 33%;
+}
+
+.chat_header_last{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+

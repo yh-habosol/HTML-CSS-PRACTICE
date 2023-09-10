@@ -1,0 +1,221 @@
+.friends{
+    margin-top: 60px;
+    padding: 0px 30px;
+}
+
+
+.friends__me{
+ 
+    display: flex;
+    border-bottom: 1px solid rgba(121, 121, 121, 0.3);
+    margin-bottom: 20px;
+}
+
+
+.friends__me__img{
+    height: 80px;
+    width: 80px;
+    border-radius: 30px;
+}
+
+.friends__me :nth-child(2){
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.friends__me__column{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+.friends__multiprofile{
+    border-bottom: 1px solid rgba(121, 121, 121, 0.3);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+label{
+    font-size: 12px;
+    color:#727278 ;
+}
+
+
+.friends__hidden__multiprofile{
+    display: none;
+}
+
+#toggleButton{
+    position: absolute;
+    right: 0;
+}
+
+#toggleButton:checked + .friends__hidden__multiprofile{
+    margin-top: 30px;
+    display: flex;
+    padding: 10px, 0px;
+}
+#toggleButton:checked + .friends__hidden__multiprofile div{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+#toggleButton:checked + .friends__hidden__multiprofile i{
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+.friends__update{
+    position: relative;
+    border-bottom: 1px solid rgba(121, 121, 121, 0.3);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.friends__hidden__update{
+    display: none;
+}
+
+#toggleButton__update{
+    position: absolute;
+    right: 0;
+
+}
+
+#toggleButton__update:checked + .friends__hidden__update{
+    margin-top: 30px;
+    display: flex;
+    padding: 10px, 0px;
+}
+
+#toggleButton__update:checked + .friends__hidden__update div img{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}
+
+#toggleButton__update:checked + .friends__hidden__update .friends__update__text{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+.friends__friends{
+    position: relative;
+}
+
+.friends__hidden__friends{
+    display: none;
+}
+
+
+#toggleButton__friends{
+    position: absolute;
+    right: 0;
+}
+
+
+#toggleButton__friends:checked + .friends__hidden__friends{
+    margin-top: 30px;
+    display: flex;
+    padding: 10px, 0px;
+}
+
+.friends__hidden__friends .friend__img{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+
+.friends__list{
+    width: 100%;
+    position: relative;
+
+    height: 180vh;
+
+}
+
+
+.friends__list::-webkit-scrollbar{
+    background: white;
+    height: 10px;
+}
+.friends__list::-webkit-scrollbar-thumb{
+    background-clip: padding-box;
+    border: 10px solid #eae8fe;
+    border-radius: 5px;   
+}
+
+.friends__list::-webkit-scrollbar-track{
+    margin-left: 15px;
+}
+
+
+
+
+.friend{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.name{
+    font-size: 15px;
+}
+.state_message{
+    font-size: 10px;
+}
+
+.friend__info{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name{
+    margin-bottom: 4px;
+}
+
+.friend__column_text{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.song{
+    margin-right: 5px;
+}
+
+.friend__music{
+    font-size: 12px;
+    border-radius: 20px;
+    position: absolute;
+    right: 5px;
+    border: 1px solid green;
+    padding: 8px 10px;
+}
